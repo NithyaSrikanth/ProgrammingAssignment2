@@ -17,9 +17,10 @@ makeCacheMatrix <- function(x = matrix()) {
        setInverse = setInverse,
        getInverse = getInverse)
 }
+##From the assignment
 
-
-## Second function is a followup on the first. It reads the matrix and the output is given in inverse form
+## Second function is a followup on the first.
+##It reads the matrix and the output is given in inverse form
 
 cacheSolve <- function(x, ...) {
          ## Return a matrix that is the inverse of 'x'
